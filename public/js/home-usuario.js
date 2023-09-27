@@ -18,7 +18,7 @@ const mostrarPublicaciones = (publicaciones, elementoHtml) => {
                 <h5>${publicacion.descripcion}</h5>
                 <h5>Estrenado el: ${(publicacion.fecha).split('T')[0]}</h5>
             </div>
-            <video src="${publicacion.url_video}" class="rounded" height=500 >
+            ${publicacion.url_video}
             </section>
         `
     })
