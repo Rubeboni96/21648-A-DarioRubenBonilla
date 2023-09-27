@@ -19,7 +19,7 @@ const mostrarPublicaciones = (publicaciones = [], elementoHtml) => {
                 <td>${publicacion.descripcion}</td>
                 <td>${(publicacion.fecha).split('T')[0] }</td>
                 <td>
-                   "${publicacion.url_video}
+                   ${publicacion.url_video}
                 </td>
                 <td>
                     <a href="/admin/editar-publicacion/${publicacion.id}" class="btn btn-sm btn-warning">Editar</a>
