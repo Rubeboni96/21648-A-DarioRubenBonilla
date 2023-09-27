@@ -10,17 +10,19 @@ const mostrarPublicaciones = (publicaciones, elementoHtml) => {
 
     // Método para recorrer los registros
     publicaciones.forEach(publicacion => {
-        secciones += `
-            <section class="d-flex gap-2">
-            <img src="${publicacion.url_imagen}" class="rounded" height=200 >
-            <div class="d-flex flex-column justify-content-between">
-                <h3>${publicacion.titulo}</h3>
-                <h5>${publicacion.descripcion}</h5>
-                <h5>Estrenado el: ${(publicacion.fecha).split('T')[0]}</h5>
-            </div>
-            ${publicacion.url_video}
-            </section>
-        `
+            secciones += `
+                <div class="box">
+                    <section class="d-flex gap-2">
+                    <img src="${publicacion.url_imagen}" class="rounded" height=200 >
+                    <div class="d-flex flex-column justify-content-between">
+                        <h3>${publicacion.titulo}</h3>
+                        <h5>${publicacion.descripcion}</h5>
+                        <h5>Estrenado el: ${(publicacion.fecha).split('T')[0]}</h5>
+                    </div>
+                    ${publicacion.url_video}
+                    </section>
+                </div>
+            `
     })
 
 

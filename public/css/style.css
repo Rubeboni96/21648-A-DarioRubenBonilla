@@ -26,3 +26,8 @@ h1, h3, h5{
     background-size: cover;
     background-image: url("https://e1.pxfuel.com/desktop-wallpaper/247/411/desktop-wallpaper-107-dark-horror.jpg");
 }
+
+.box{
+    border: 10px solid rgb(255, 0, 0);
+    border-top-right-radius: 5% 5%;
+}
