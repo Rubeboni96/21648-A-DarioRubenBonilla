@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+body{
+    font-family: 'Creepster', cursive;
+}
+h1, h3, h5{
+    font-family: 'Creepster', cursive;
+        color: white;
+        text-shadow: 2px 2px red;
+}
+
+.ewk_cont_banner{
+    height: auto;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/247/411/desktop-wallpaper-107-dark-horror.jpg");
+}
