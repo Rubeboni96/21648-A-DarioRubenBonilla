@@ -1,3 +1,8 @@
+const crearPublicacion = async () => {
+    const response = await fetch('/api/publicacion')
+    const data = await response.json()
+    return data;
+}
 // Referencia al elemento de formulario html
 const formGuardar = document.querySelector("#form-guardar")
 
@@ -19,7 +24,7 @@ formGuardar.addEventListener('submit', async (e) => {
         headers: {
             'Content-Type':'application/json'
         },
-        body: JSON.stringify({ titulo, descripcion, url_imagen, fecha})
+        body: JSON.stringify({ titulo, descripcion, url_imagen, url_video, fecha})
     })
     const data = await response.json();
 

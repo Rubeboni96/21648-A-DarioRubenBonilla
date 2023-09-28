@@ -40,7 +40,7 @@ CREATE TABLE `publicaciones` (
 -- Volcado de datos para la tabla `publicaciones`
 --
 
-INSERT INTO `publicaciones` (`id`, `titulo`, `descripcion`, `fecha`, `url_imagen`) VALUES
+INSERT INTO `publicaciones` (`id`, `titulo`, `descripcion`, `fecha`, `url_imagen`, 'url_video') VALUES
 (2, 'Otro título', 'Otra descripción', '2023-09-14 00:00:00', 'https://png.pngtree.com/thumb_back/fw800/background/20230408/pngtree-travel-around-the-world-background-image_2169513.jpg'),
 (3, 'Otra Publicacion', 'Descripción Nueva', '2023-09-30 00:00:00', 'https://png.pngtree.com/thumb_back/fw800/background/20230408/pngtree-travel-around-the-world-background-image_2169513.jpg'),
 (5, 'Nuevo titulo', 'Nueva descripción', '2023-09-11 00:00:00', 'https://www.repsol.com/content/dam/repsol-corporate/es/sostenibilidad/naturaleza%20bosque%20y%20lago.jpg.transform/rp-rendition-md/image.jpg'),
